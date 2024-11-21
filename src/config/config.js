@@ -2,6 +2,7 @@ import { config } from "dotenv";
 
 config()
 
+mongoose.set('strictQuery', true);
 
 export default {
     app: {
